@@ -1,0 +1,15 @@
+web pages needed:
+Landing page - contains summary and visualizations.
+
+Visualization page 1 - temp
+
+Visualization page 2 - humidity
+
+visualization page 3 - cloudiness
+
+visualization page 4 - wind speed
+
+Comparisons page - all visualizations on a single page
+
+Data page - responsive table showing data (table from bootstrap
+Must come from converting/exporting csv file to html

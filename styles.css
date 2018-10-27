@@ -1,0 +1,9 @@
+/* navbar */
+.navbar-header {
+    background-color: #42caa6;
+}
+
+.navbar-brand {
+    color: white !important;
+    text-align:justify;
+}
