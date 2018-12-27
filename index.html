@@ -3,13 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Visualization - Windspeed</title>
+  <title>Visualization Landing Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 
 <body>
     <nav class = "navbar navbar-default">
@@ -22,7 +21,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Latitude Weather</a>
+                <a class="navbar-brand" href="index.html"> Latitude Weather</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,49 +43,55 @@
             </div>
 
         </div>
+
+
     </nav>
-
-    <div class = "container">
+    <div class = "container-fluid">
     <div class="row">
-        <div class = "col-sm-12 col-md-12 col-lg-12">
+        <div class = "col-sm-12 col-md-12 col-lg-8">
+        <div class = "panel panel-default">
+            <div class = "panel-heading">
+            <h2>Visualizations of Weather and Latitude</h2>
+            </div>
+
+            <div class="panel-body">
+
+                <p><img src = "Resources/assets/images/Lat_Temp_bonus.png" alt="Latitude Temperature Graph" height="300">
+                The purpose of this project was to compare various weather-related measurements with their north/south
+                position on the earth's surface. These included temperature, cloudiness, relative humidity, and wind speed.
+                The readings for this project were taken in the Fall for the Northern Hemisphere.<br> <br>
+                As an additional piece of context, the points are also plotted based on their actual position on the globe
+                and not purely latitude.  These additional graphics are contained in a bonus page of this homework assignment.
+                </p>
+            </div>
+        </div>
+        </div>
+
+
+        <div class = "col-sm-12 col-md-12 col-lg-4">
             <div class = "panel panel-default">
                 <div class = "panel-heading">
-                    <h2>Latitude and Wind Speed</h2>
+                    <h2>Visualizations</h2>
                 </div>
 
-                <div class = "panel-body">
-                    <p><img src = "Resources/assets/images/Lat_WindSpeed_bonus.png" alt="Latitude Windspeed Graph" height="450">
-                    There is a small correlation between wind speed and the latitude of the city, primary in several bands
-                    (40 and 65 degrees north and the equator). In the fall it is typically windier at the higher latitudes due to
-                    the change in length of sunlight and the resulting pressure system changes.
-                    </p>
-                </div>            
+                <div class="panel-body">
 
-            </div>
-            
-            <div class = "panel panel-default">
-                <div class = "panel-heading">
-                    <h2>Latitude and Wind Speed (Positional)</h2>
+                    <tr>
+                        <td><img src = "Resources/assets/images/Lat_Temp_bonus.png" alt="Latitude Temperature Graph" height="150"></td>
+                        <td><img src = "Resources/assets/images/Lat_Cloudiness_bonus.png" alt="Latitude Cloudiness Graph" height="150"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src = "Resources/assets/images/Lat_Humidity_bonus.png" alt="Latitude Humidity Graph" height="150"></td>
+                        <td><img src = "Resources/assets/images/Lat_WindSpeed_bonus.png" alt="Latitude Windspeed Graph" height="150"></td>
+                    </tr>
                 </div>
-
-                <div class = "panel-body">
-                    <p><img src = "Resources/assets/images/Lat_long_wind_bonus.png" alt="Lat/Long Windspeed Graph" height="450">
-                    The correlation between windspeeds on the globe shows a bit more context compared to the graph shown above. 
-                    Coastal areas are have higher wind speeds, primarily due to the constant pressure differences between the water
-                    and the land. 
-                    </p>
-                </div>            
-
             </div>
-        
         </div>
     </div>
     </div>
     
 </body>
-
-
-
 
 
 </html>
