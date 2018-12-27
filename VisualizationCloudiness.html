@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -43,9 +44,47 @@
 
         </div>
 
-
     </nav>
     
+    <div class = "container">
+    <div class="row">
+        <div class = "col-sm-12 col-md-12 col-lg-12">
+            <div class = "panel panel-default">
+                <div class = "panel-heading">
+                    <h2>Latitude and Cloudiness</h2>
+                </div>
+
+                <div class = "panel-body">
+                    <p><img src = "Resources/assets/images/Lat_Cloudiness_bonus.png" alt="Latitude Cloudiness Graph" height="450">
+                    There is only a small correlation between cloudiness and the latitude of the city.
+                    It is cloudier in the upper northern latitudes, but this is also the location of most
+                    of the results.
+                    </p>
+                </div>            
+
+            </div>
+            
+            <div class = "panel panel-default">
+                <div class = "panel-heading">
+                    <h2>Latitude and Cloudiness (Positional)</h2>
+                </div>
+
+                <div class = "panel-body">
+                    <p><img src = "Resources/assets/images/Lat_long_cloud_bonus.png" alt="Lat/Long Cloudiness Graph" height="450">
+                    Viewing the data based on their actual global position paints a clearer picture of the global
+                    cloudiness distribution. The world's deserts are somewhat visible along the 20-30 degree latitude
+                    lines.  This view also highlights that much of the cloudiness in the northern hemisphere is due to
+                    a weather system traveling across North America at the time.
+                    </p>
+                </div>            
+
+            </div>
+        
+        </div>
+    </div>
+    </div>
+
+
 </body>
 
 
